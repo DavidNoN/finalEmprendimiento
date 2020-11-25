@@ -1,0 +1,44 @@
+h5 {
+    font-weight: bold;
+}
+
+.badR {
+    color: red;
+}
+
+.goodR {
+    color: green;
+}
+
+.mgb {
+    margin-top: 2.5rem;
+}
+
+.cust-sel{
+    appearance: none;
+    margin-top: 2rem;
+    padding: 1rem 3rem;
+    border: 1px solid gray;
+    border-radius: 1rem;
+}
+
+.mgb2 {
+    margin-top: 4.4rem;
+}
+
+.progress-bar {
+    color: yellow !important;
+}
+
+.movement {
+    margin-left: -80px;
+}
+
+h4 {
+    text-align: center;
+}
+
+.succ {
+    font-weight: bold;
+    color: green;
+}

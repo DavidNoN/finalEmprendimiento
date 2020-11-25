@@ -1,0 +1,149 @@
+<div class="main-content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="header">
+                        <h4 class="title">Registro</h4>
+                        <p class="category">Para realizar el registro debes estar en el lugar de residencia del
+                            mismo</p>
+                    </div>
+                    <div class="content">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <div class="form-group">
+                                        <label>Empresa</label>
+                                        <input type="text"
+                                               disabled
+                                               class="form-control"
+                                               placeholder="Company"
+                                               value="Aguas y Aguas de Pereira">
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <label>Usuario</label>
+                                        <input type="text"
+                                               class="form-control"
+                                               placeholder="Nombre de Usuario"
+                                               >
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label>Correo electrónico</label>
+                                        <input type="email"
+                                               class="form-control"
+                                               placeholder="Email">
+                                    </div>
+                                </div>
+                            </div>
+            
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Nombre</label>
+                                        <input type="text"
+                                               class="form-control"
+                                               placeholder="Nombre"
+                                               >
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Apellidos</label>
+                                        <input type="text"
+                                               class="form-control"
+                                               placeholder="Apellidos"
+                                               >
+                                    </div>
+                                </div>
+                            </div>
+            
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div class="form-group">
+                                        <label>Dirección</label>
+                                        <input type="text"
+                                               class="form-control"
+                                               [disabled]="!flagAddress"
+                                               [value]="dir"
+                                               placeholder="Dirección"
+                                               >
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label class="switchBtn">
+                                            <input type="checkbox" (click)="autoAdd()">
+                                            <div class="slide">GPS</div>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+            
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label>Ciudad</label>
+                                        <input type="text"
+                                               class="form-control"
+                                               placeholder="Ciudad"
+                                               disabled
+                                               value="Pereira">
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label>Escaneo Factura</label>
+                                        <input type="file"
+                                               class="form-control"
+                                               placeholder="Country"
+                                               >
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Contraseña</label>
+                                        <input type="password"
+                                               class="form-control"
+                                               placeholder="Contraseña"
+                                               >
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Confirmar Contraseña</label>
+                                        <input type="password"
+                                               class="form-control"
+                                               placeholder="Confirmar Contraseña"
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+            
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label>Sobre mí</label>
+                                        <textarea rows="5"
+                                                  class="form-control"
+                                                  placeholder="Here can be your description"
+                                                  ></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="submit"
+                                    class="btn btn-info btn-fill pull-right">Registro
+                            </button>
+                            <div class="clearfix"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
